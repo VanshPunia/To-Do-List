@@ -1,0 +1,84 @@
+body{
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    /* height: 100vh;
+    width: 100vw; */
+    background-size: cover;
+    margin-top: 0px;
+    /* display: flex; */
+   
+}
+.body img{
+    height: 100vh;
+}
+.container{
+    width: 450px;
+    padding: 33px;
+    text-align: center;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 5px;
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input{
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
+    padding: 8px;
+    border: 2px solid aqua;
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: orangered;
+    color: black;
+    cursor: pointer;
+    border: 2px;
+    outline: none;
+}
+.h1{
+    font-style: italic;
+    margin-top: 35px;
+}
+ .text ul{
+    /* height: 20px; */
+    width: 340px;
+    margin-left: 45px;
+    position: relative;
+    background-color: black;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+}
+.text ul i {
+    content: "";
+    color: black;
+    position: absolute;
+      right: 10px;
+    cursor: pointer;
+    width: 80px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 1px;
+    height: 30px;
+    bottom: 2px;
+    background: white;
+    padding: 6px;
+/* transform: rotate(45deg); */
+}
+/* .text ul i ::before{
+    content: "";
+    position: absolute;
+ 
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+   
+background: #ff2c74;
+transform: rotate(-45deg);
+}  */
+
